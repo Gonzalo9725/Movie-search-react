@@ -1,0 +1,89 @@
+.App {
+  padding-top: 35px;
+  text-align: center;
+}
+
+.SearchForm-Wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.MoviesList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.MoviesList-Item{
+  margin-bottom: 24px;
+  width: 30%;
+}
+
+.Movie-Container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.rating-star{
+  margin-right: 7px;
+}
+
+.Poster{
+  display: flex;
+}
+
+.Poster img{
+  border-radius: 10%;
+  background: #c7c9be;
+box-shadow:  7px 7px 14px #afb1a7, 
+             -7px -7px 14px #dfe1d5;
+}
+
+.Info-Movie{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+}
+
+.Info-Movie p{
+  width: fit-content;
+  margin-bottom: 9px;
+}
+
+.info-tags p{
+  margin-right: 8px;
+}
+
+.info-tags{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.button{
+  width: fit-content;
+}
+
+@media screen and (max-width: 770px) {
+
+  .Movie-Container{
+    margin-bottom: 60px;
+  }
+
+  .Info-Movie{
+    margin-top: 30px;
+    padding: 0px 15px;
+    text-align: left;
+  }
+  
+  .MoviesList{
+    padding: 32px;
+  }
+
+  .MoviesList-Item {
+    margin-bottom: 40px;
+    width: 100%;
+}
+}
